@@ -14,11 +14,35 @@ for (let i=0; i < numbers.length; i++){
         console.log (numbers[i])
     }
 };
-// 
 
+let rub = ['lile', 'gior' 'nutsa', 'ani', 'goga', 'leviko'];
+ 
+ for (let i=0; i< rub.length; i++){
+     if (rub[i].length > 3){
+         console.log(rub[i]);
+     }
+ }
+// HW 3
+let klik = [2, 10, 3, 8, 9, 6];
 
-
-
+for (let i=0; i< klik.length; i++) {
+    if (klik[i] % 2 == 0){
+    console.log(klik[i]);
+    }
+}
+//
+let numbers=[2, 3, 4, 5, 6, 7];
+for (let i=0; i < numbers.length; i++) {
+    if (numbers[i] % 2 ==0) {
+        console.log(numbers[i]);
+    }
+}
+let numbers=[2, 3, 4, 5, 6, 7];
+for (let i=0; i < numberslength; i++) {
+    if (numbers[i] % 2 !=0) {
+        console.log(numbers[i]);
+    }
+}
 
 
 
@@ -35,4 +59,7 @@ var person = {
     eyecolor: "blue"
   };
   Console.log (person.eyecolor);
+
+//   
+
   
